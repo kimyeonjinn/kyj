@@ -8,3 +8,116 @@ body {
 }
 
 /* 여기에 코드를 작성해주세요 */
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 2fr;
+
+  
+
+}
+
+.item {
+  border: 1px solid white;
+  background-color: black;
+  color: orange;
+  display: flex;
+  font-size: 20px;  
+}
+
+.item:nth-child(1) {
+  grid-row: 1/2;
+  grid-column: 1/4;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:nth-child(2) {
+  display: grid;
+  grid-row: 2/5;
+  grid-column: 1/2; 
+  grid-template-columns:repeat(7,1fr);
+  grid-template-rows: repeat(6,1fr);
+  
+}
+
+.grid {
+  background-color: orange;
+}
+
+.grid:nth-child(1) {
+  grid-row: 1/2;
+  grid-column: 2/4;
+}
+
+.grid:nth-child(2) {
+  grid-row: 2/4;
+  grid-column:1/2 ;
+}
+
+.grid:nth-child(3) {
+  grid-row: 4/5;
+  grid-column:2/3 ;
+}
+
+.grid:nth-child(4) {
+  grid-row: 5/6;
+  grid-column: 3/4 ;
+}
+
+.grid:nth-child(5) {
+  grid-row: 6/7;
+  grid-column:4/5 ;
+}
+
+.grid:nth-child(6) {
+  grid-row: 5/6;
+  grid-column:5/6;
+}
+.grid:nth-child(7) {
+  grid-row: 4/5;
+  grid-column:6/7 ;
+}
+.grid:nth-child(8) {
+  grid-row: 2/4;
+  grid-column: 7/8;
+}
+.grid:nth-child(9) {
+  grid-row: 1/2;
+  grid-column:5/7 ;
+}
+
+.grid:nth-child(10) {
+  grid-row: 2/3;
+  grid-column: 4/5;
+}
+
+
+.item:nth-child(3) {
+  grid-row: 2/4;
+  grid-column: 2/4;
+  font-size: small;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item:nth-child(4) {
+  grid-row: 4/5;
+  grid-column: 2/4;
+  font-size: 13px;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.table {
+  text-align: center;
+  gap: 10px;
+}

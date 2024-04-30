@@ -7,4 +7,66 @@ body {
   margin: 0;
 }
 
-/* 여기에 코드를 작성해주세요 */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 70%;
+}
+
+.item {
+  display: flex;
+}
+
+.item1 {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+
+}
+
+.leftitem {
+  display:flex;
+  align-items: center;
+}
+
+.ellipsis-icon  {
+  font-size: small;
+}
+
+.item1 img {
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.item3 {
+  display: flex;
+  background-color: black;
+  padding-inline: 10px;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+
+.item4 {
+  background-color: black;
+  color:white;
+  padding: 10px;
+}
+
+p {
+  font-size: 10px;
+}
+
+.transparent {
+  color: gray
+
+}
+
+
+.fa-regular fa-bookmark {
+  margin-left: 10px;
+}
